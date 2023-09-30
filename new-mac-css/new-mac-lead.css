@@ -2,3 +2,163 @@ body{
     font-family: 'Almarai', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }  
+.top-section {
+    background: #fbfbfb;
+    box-shadow: 1px 1px 2px #f5f5f5;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.top-hedder-support-section{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+.top-hedder-support-section li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-section{
+    background-color: #fbfbfb;
+    box-shadow: 1px 1px 2px #f5f5f5;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.nav-laft-sec{
+    padding-left: 63%;
+    gap: 33px;
+}
+#btn-taxt-color{
+    background: #24b724;
+    color: white;
+}
+.hedding{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.head-title h1{
+    font-size: 65px;
+    line-height: 66px;
+    font-weight: 100;
+    color: black;
+}
+.head-title p{
+    color: gray;
+    line-height: 33px;
+    max-width: 427px;
+}
+.data-up-to-card{
+    box-shadow: 0px 1px 4px -1px #c1c1c1;
+}
+.lead-data-card{
+    border-right: 2px solid #dddddd;
+} 
+.lead-data{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 30px;
+}
+.lead-data p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+}
+.purchase-record-card{
+    border-right: 2px solid #dddddd;
+}
+.purchase-record{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 30px;
+}
+.purchase-record p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600
+}
+.phone-number-card{
+    border-right: 2px solid #dddddd;
+} 
+.phone-number{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 30px;
+}
+.phone-number p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600
+}
+.up-to-data-card{
+    border-right: 2px solid #dddddd;
+} 
+.up-to-data{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 30px;
+}
+.up-to-data p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600 
+}
+.purchase-data-card-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #006738;
+    padding: 25px;
+    color: white;
+}
+.purchase h3{
+    font-size: 45px;
+}
+.purchase-btn{
+    padding: 10px 142px;
+    background: #5bd95bd9;
+    border: none;
+}
+.purchase-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+body{
+    margin-bottom: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 768px)  { 
+    .pngd{
+        display: none;
+    }
+    .top-hedder-support-section {
+        display: flex;
+        ap: 15px;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .top-hedder-support-section {
+        display: flex;
+        ap: 15px;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+}
